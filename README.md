@@ -9,7 +9,7 @@
 - **Ray-Casting**: Implements ray-casting to render a 3D maze from a first-person view.
 - **Texture Management**: Supports different wall textures that vary depending on the wall's orientation (North, South, East, West).
 - **Dynamic Colors**: Allows setting of floor and ceiling colors to enhance the 3D effect.
-- **Control System**: Utilizes keyboard controls for navigation (WASD for movement, arrow keys) and Q for program exit.
+- **Control System**: Utilizes keyboard controls for navigation (WASD for movement and arrow keys) and Q for program exit.
 - **Error Handling**: Robust error handling for file and input management, ensuring stability and user feedback.
 - **MiniLibX Library**: Uses miniLibX for window management and graphic rendering, providing a smooth graphical experience.
 
@@ -32,6 +32,7 @@ To run `cub3D`, execute the compiled program with a map file as its argument. Th
 ## Controls
 
 - **WASD**: Move through the maze.
+- **Arrow Left/Right**: To rotate the player's view
 - **Q**: Exit the program.
 
 ## Map Configuration
